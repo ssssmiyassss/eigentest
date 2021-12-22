@@ -1,12 +1,12 @@
 
 :: 2021-12-17 16:14:28
-cl test01.cpp -I%EIGEN_ROOT%\include
+cl test01.cpp -I%EIGEN_INCLUDE%
 
 :: 2021-12-17 17:19:39
-cl test02.cpp -I%EIGEN_ROOT%\include
+cl test02.cpp -I%EIGEN_INCLUDE%
 
 :: 2021-12-17 17:19:39
-cl test03.cpp -I%EIGEN_ROOT%\include
+cl test03.cpp -I%EIGEN_INCLUDE%
 
 test01.exe
 test02.exe
