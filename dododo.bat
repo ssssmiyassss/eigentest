@@ -12,3 +12,8 @@ test01.exe
 test02.exe
 test03.exe
 
+:: 2021-12-22 16:20:43
+cl /openmp test04.cpp -I%EIGEN_INCLUDE%
+
+test04.exe
+
