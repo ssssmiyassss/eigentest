@@ -1,5 +1,8 @@
 # miyamoto
 /.vscode/
+*hoge*
+*tmp*
+*temp*
 
 # Prerequisites
 *.d
