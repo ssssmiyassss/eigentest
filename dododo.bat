@@ -1,4 +1,6 @@
 
+set EIGEN_INCLUDE=c:\\eigen\\include\\eigen3
+
 :: 2021-12-17 16:14:28
 cl /openmp test01.cpp -I%EIGEN_INCLUDE%
 
@@ -14,6 +16,8 @@ test03.exe
 
 :: 2021-12-22 16:20:43
 cl /openmp test04.cpp -I%EIGEN_INCLUDE%
-
 test04.exe
 
+:: 2022-06-10 16:51:13
+cl /openmp quaternion01.cpp -I%EIGEN_INCLUDE%
+quaternion01.exe > hoge
